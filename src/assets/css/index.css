@@ -1,0 +1,110 @@
+.mobileBox {
+    width: 360px;
+    height: 640px;
+    border:1px solid #CCCCCC;
+    /*transform:scale(.8,.8);*/
+}
+
+.hide {
+    display: none;
+}
+
+.demonstration {
+    font-size: 20px;
+}
+
+.marginL20 {
+    margin-left: 20px;
+}
+
+.buttonArea {
+    margin-left: 50px;
+}
+
+.ql-container .ql-editor {
+    min-height: 400px;
+    padding-bottom: 1px;
+    max-height: 600px;
+}
+
+.h300 {
+    height: 200px;
+    overflow: auto;
+}
+
+.hLeft {
+    height: calc(100% - 300px);
+}
+
+.boxOut {
+    padding: 10px;
+    border: 1px solid #B3B3B3;
+}
+
+.articleHandleBox {
+    line-height: 70px;
+    height: 70px;
+    background: #e8e6e6;
+}
+
+.fHead {
+    height: 40px;
+    background: #99A9BF;
+    padding-top: 3px;
+}
+
+.flex {
+    display: flex;
+}
+
+.half {
+    flex: 1;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.searchPart {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+
+.searchInput {
+    margin-left: 20px;
+    width: 40px;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.border {
+    border: 1px solid #d1dbe5;
+}
+
+.head {
+    position: relative;
+    background-color: #324057;
+    height: 40px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+
+.withSearch {
+    height: 75px;
+}
+
+.withSearch span {
+    line-height: 40px;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.heightH {
+    height: 100%;
+}
