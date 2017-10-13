@@ -82,11 +82,10 @@ function replaceFiles(config) {
             fs.copySync(config.copySrc, config.dellSrc)
             console.log('copy success!')
             console.log('press "Ctrl+c" to quit!')
-
         } catch (err) {
             console.error(err)
         }
-    });
+    },function(){process.exit();});
 }
 
 function operation(mode) {

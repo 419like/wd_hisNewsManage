@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div id="app">
 		<router-view class="window" keep-alive transition transition-mode="out-in"></router-view>
 	</div>
 </template>
@@ -9,6 +9,16 @@ export default {
 		return {
 
 		}
-	}
+	},
+	watch:{
+		Msgs(curVal,oldVal){
+			console.log(curVal,oldVal);
+		}
+	},
+	computed: {
+        Msgs (){
+            return this.$store.getters.getMsg;
+        }
+    }
 }
 </script>
